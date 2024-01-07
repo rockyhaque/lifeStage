@@ -25,7 +25,7 @@ Welcome to the lifeStage project! This web application helps you determine wheth
 
 ## Demo
 
-Check out the lifeStage project: [lifeStage Demo](https://your-username.github.io/lifeStage/)
+Check out the lifeStage project: [lifeStage Demo](https://rockyhaque.github.io/lifeStage/)
 
 ## Technologies Used
 
@@ -34,7 +34,7 @@ Check out the lifeStage project: [lifeStage Demo](https://your-username.github.i
 
 ## How to Use
 
-1. Open the [lifeStage Demo](https://your-username.github.io/lifeStage/).
+1. Open the [lifeStage Demo](https://rockyhaque.github.io/lifeStage/).
 2. Enter your age in the input field.
 3. See the card displayed below the banner, indicating whether you are an adult or a child.
 
