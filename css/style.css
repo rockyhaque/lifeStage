@@ -6,6 +6,122 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background: #eef8ff;
+}
+
+/*---------------------- Header Section------------------- */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 0px;
+}
+
+.nav-logo-title{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.nav-logo-title h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.life-l{
+    color: rgba(255, 66, 165, 1);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.nav-logo-title img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.nav-items ul li{
+    margin-left: 32px;
+}
+
+.nav-items ul li a{
+    color: #3C354F;
+}
+
+.nav-items ul li a:hover{
+    color: rgba(255, 66, 165, 1);
+    cursor: pointer;
+}
+
+
+.nav-social-container{
+    display: flex;
+    gap: 22px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 24px;
+    align-items: center;
+}
+
+.nav-social-container:hover{
+    box-shadow: 0px 15px 20px rgba(207, 86, 187, 0.4);
+    cursor: pointer;
+}
+
+.nav-social-container img{
+    width: 25px;
+    height: 22px;
+}
+
+
+/*----------------------------- Main Section-------------------  */
+
+/*------------- Hero Section --------------*/
+.hero-container{
+    display: flex;
+    margin: 60px 10px ;
+    gap: 200px;
+
+}
+.hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid rgb(0, 162, 255); */
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.hero-img img{
+    width: 500px;
+    height: 250px;
+    /* border: 1px solid red; */
+    border-radius: 20px 2px ;
+}
+
 .box-container{
     display: flex;
     justify-content: center;
@@ -20,4 +136,154 @@
     width: 200px;
     background: #6e3434;
     color: white;
+}
+
+.logo{
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+/*------------------------- Footer Section Styles -----------------------------*/
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(106.2deg, rgb(0, 124, 146) -4.3%, rgb(65, 72, 110) 14.1%, rgb(79, 62, 109) 34.7%, rgb(93, 53, 100) 53%, rgb(107, 32, 51) 74.7%, rgb(99, 67, 38) 95.6%);
+    color: #fff;
+    padding: 60px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 63px;
+    position: relative;
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+form .fa-sharp{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #ccc;
+    outline: none;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .fa-solid{
+    font-size: 16px;
+    color: #ccc;
+}
+
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    overflow: hidden;
+
+}
+
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
 }

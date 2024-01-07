@@ -1,0 +1,36 @@
+@media (max-width: 700px){
+    .nav{
+        justify-content: space-evenly;
+    }
+    .nav-logo-title h1{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .hero-container{
+        flex-direction: column;
+    }
+    
+    .col{
+        flex-basis: 100%;
+
+    }
+    .col:nth-child(2), .col:nth-child(3){
+        flex-basis: 100%;
+    }
+
+}
+
+/* Tablet Styles (701px to 1024px) */
+@media (min-width: 701px) and (max-width: 1024px) {
+
+    
+
+    .col {
+        flex-basis: 50%; 
+    }
+
+    .col:nth-child(2),
+    .col:nth-child(3) {
+        flex-basis: 50%; 
+    }
+}
