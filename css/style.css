@@ -7,7 +7,8 @@
 }
 
 body{
-    background: #eef8ff;
+    /* background: #eef8ff; */
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
 }
 
 /*---------------------- Header Section------------------- */
@@ -18,7 +19,8 @@ nav{
     align-items: center;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    padding: 20px 0px;
+    padding: 10px 0px;
+    
 }
 
 .nav-logo-title{
@@ -107,6 +109,8 @@ nav li a{
     align-items: center;
     flex-direction: column;
     /* border: 1px solid rgb(0, 162, 255); */
+    width: 50%;
+    text-align: center;
 }
 
 .hero-img {
@@ -114,9 +118,10 @@ nav li a{
     justify-content: center;
     align-items: center;
     /* border: 1px solid red; */
+    width: 50%;
 }
 .hero-img img{
-    width: 500px;
+    width: 400px;
     height: 250px;
     /* border: 1px solid red; */
     border-radius: 20px 2px ;
@@ -126,7 +131,7 @@ nav li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 .child-box-container,
@@ -135,7 +140,17 @@ nav li a{
     height: 300px;
     width: 200px;
     background: #6e3434;
-    color: white;
+    color: black;
+    background-color: rgb(255 255 255 / 10%);
+    box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+    backdrop-filter: blur(10px);
+    margin-bottom: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
 
 .logo{
@@ -143,11 +158,51 @@ nav li a{
     margin-bottom: 30px;
 }
 
+.input-container{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+input{
+    padding: 10px; 
+    border-radius: 5px;
+    background-color: rgb(36, 33, 33);
+    width: 300px;
+    color: white;
+    border: none;
+}
+
+::placeholder{
+    color: white;
+}
+
+.card-title{
+    margin: 10px 0px;
+}
+
+.card-description{
+    text-align: center;
+    margin-top: 15px 0px;
+}
+/* .adult-img-contaienr,
+.child-img-contaienr{
+    display: flex;
+    justify-content: center;
+} */
+
+.child-img,
+.adult-img{
+    height: 200px;
+    width: auto;
+    border-radius: 2px;
+    
+}
+
 /*------------------------- Footer Section Styles -----------------------------*/
 
 footer{
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     background: linear-gradient(106.2deg, rgb(0, 124, 146) -4.3%, rgb(65, 72, 110) 14.1%, rgb(79, 62, 109) 34.7%, rgb(93, 53, 100) 53%, rgb(107, 32, 51) 74.7%, rgb(99, 67, 38) 95.6%);
     color: #fff;
