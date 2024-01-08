@@ -12,6 +12,14 @@ body{
 }
 
 /*---------------------- Header Section------------------- */
+.sticky-navbar{
+    background-color: #fff; /* Set your desired background color for the sticky navbar */
+    border-bottom: 1px solid #ddd; /* Optional: Add a border for visual separation */
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar appears above other elements */
+}
 
 nav{
     display: flex;
@@ -20,7 +28,6 @@ nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 10px 0px;
-    
 }
 
 .nav-logo-title{
@@ -101,7 +108,10 @@ nav li a{
     display: flex;
     margin: 60px 10px ;
     gap: 200px;
-
+}
+.banner-text{
+    margin-top: 20px;
+    line-height: 25px;
 }
 .hero-text{
     display: flex;
